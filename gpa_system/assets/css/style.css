@@ -1,0 +1,54 @@
+/* assets/css/style.css */
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    transition: box-shadow 0.2s;
+}
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn {
+    border-radius: 0.3rem;
+}
+
+.alert {
+    border-radius: 0.3rem;
+}
+
+/* تنسيق خاص لصفحة إدخال الدرجات */
+.grade-input {
+    width: 140px;
+}
+
+/* تحسين شكل الـ badge */
+.badge {
+    font-weight: 500;
+}
+
+/* تذييل الصفحة */
+footer {
+    font-size: 0.9rem;
+}
